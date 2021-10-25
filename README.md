@@ -1,6 +1,10 @@
 ## WebWizards Agency
 
-#Fictional web development agency.
+Fictional web development agency built by team of enthusiastic and passionate developers
+
+[Jovana Marceta](https://github.com/jovana-marceta)
+[Kevin Nemo](https://github.com/kevin-nemo74)
+[Aidas](https://github.com/elnino97)
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 [![license](https://img.shields.io/github/license/maksabuzyarov/gulp-webpack-handlebars)](https://github.com/maksabuzyarov/gulp-webpack-handlebars/blob/master/LICENSE)
