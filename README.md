@@ -1,4 +1,6 @@
-## Front-end Boilerplate
+## WebWizards Agency
+
+#Fictional web development agency. Built by: [Jovana Marceta](https://github.com/jovana-marceta), [Aidas] (https://github.com/elnino97)
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 [![license](https://img.shields.io/github/license/maksabuzyarov/gulp-webpack-handlebars)](https://github.com/maksabuzyarov/gulp-webpack-handlebars/blob/master/LICENSE)
@@ -25,23 +27,17 @@
 
 ### Install
 
-1. Install **NodeJS** and **npm**
+1. Install **NodeJS** and **yarn**
 2. Clone this repository
-3. Run `npm install`
+3. Run `yarn`
 
-```bash
-git clone https://github.com/maksabuzyarov/gulp-webpack-handlebars.git
-cd gulp-webpack-handlebars
-npm install
-```
 
 ### Use tasks
 
 |                | Task Name                                    | Description                                               | Environment |
 | -------------- | :------------------------------------------- | :-------------------------------------------------------- | :---------- |
-| :construction: | `npm run dev` or `gulp`                     | Compile dev build, start the server and watch for changes | Development |
-| :factory:      | `npm run build` or `gulp build --production` | Compile production build                                  | Production  |
-
+| :construction: | `gulp`                     | Compile dev build, start the server and watch for changes | Development |
+| :factory:      |  `gulp build --production` | Compile production build                                  | Production  |
 
 
 ### How to use SVG sprite?
@@ -164,3 +160,4 @@ In this case, the image does not respond to color changes.
 ## Copyright and license
 
 Copyright 2019 Maksim Abuzyarov under the [MIT license](http://opensource.org/licenses/MIT).
+Updated 2021 by WebWizards Team :)

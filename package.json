@@ -25,9 +25,8 @@
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.5",
+    "@babel/register": "^7.0.0",
     "babel-loader": "^8.1.0",
-    "babel-register": "^6.26.0",
     "browser-sync": "^2.26.12",
     "del": "^5.1.0",
     "favicons": "^5.4.1",
@@ -57,9 +56,10 @@
     "imagemin-webp": "^5.1.0",
     "imagemin-zopfli": "^6.0.0",
     "node-notifier": "^6.0.0",
-    "webpack": "^4.44.0",
+    "webpack": "^5.59.1",
     "webpack-stream": "^5.2.1",
-    "yargs": "^15.4.1"
+    "yargs": "^15.4.1",
+    "yarn-upgrade-all": "^0.5.4"
   },
   "dependencies": {
     "ansi-colors": "^4.1.1",
