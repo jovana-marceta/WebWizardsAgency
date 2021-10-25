@@ -1,0 +1,40 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+
+// name of the font, font size, and style
+
+.lato-14-normal {
+	font-family: "Lato";
+	font-size: 24px;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+.lato-25-normal {
+	font-family: "Lato";
+	font-size: 25px;
+	line-height: 117%;
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	@include for-small-screen {
+		font-size: 20px;
+	}
+}
+
+h1 {
+	@extend .lato-25-normal;
+}
+  
+ 
+  

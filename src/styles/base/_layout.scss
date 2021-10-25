@@ -1,0 +1,12 @@
+// adding scrollbar for mozzila
+// html {
+// 	overflow-y: scroll;
+// 	scrollbar-color: #333 $orange;
+// 	scrollbar-width: thin;
+// }
+
+body {
+	background-color: $white;
+	color: $black;
+	@extend .lato-14-normal;
+}
