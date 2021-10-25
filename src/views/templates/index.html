@@ -1,0 +1,57 @@
+{{> header title="Index page"}}
+
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <a href="{{indexDir}}/index.html">
+    <h5 class="my-0 mr-md-auto font-weight-normal">Index</h5>
+  </a>
+
+  <div class="ml-auto">
+    <a class="btn btn-outline-primary" href="{{indexDir}}/pages/page.html">Page template</a>
+  </div>
+</div>
+
+<div class="container px-3 py-3 pt-md-5 pb-md-4">
+  <h1 class="display-4 text-center">
+    Gulp + Webpack + Handlebars
+    <svg class="text-success" viewBox="0 0 314.009 314.009" style="width: 1em; height: 1em">
+      <use href="{{assets}}/img/svg-sprite/sprite.svg#computer-bug"></use>
+    </svg>
+  </h1>
+
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+      Main helpers:
+      <ul class="list-group">
+        <li class="list-group-item">Assets: <span class="badge badge-primary">{{assets}}</span></li>
+        <li class="list-group-item">Index: <a href="{{indexDir}}/index.html"><span class="badge badge-primary">{{indexDir}}</span></a></li>
+        <li class="list-group-item">time: <span class="badge badge-primary">{{time}}</span></li>
+      </ul>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      Config metadata:
+      <ul class="list-group">
+        <li class="list-group-item">Author: <span class="badge badge-primary">{{author}}</span></li>
+        <li class="list-group-item">Year: <span class="badge badge-primary">{{year}}</span></a></li>
+      </ul>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      Data file (main.json):
+      <ul class="list-group">
+        <li class="list-group-item">Example: <span class="badge badge-primary">{{main.example}}</span></li>
+        <li class="list-group-item">testArray:
+          {{#each main.testArray}}
+          <span class="badge badge-primary">[{{@index}}] {{@key}}: {{this}}</span>
+          {{/each}}
+        </li>
+        <li class="list-group-item">testObj:
+          {{#each main.testObj}}
+          <span class="badge badge-primary">[{{@index}}] {{@key}}: {{this}}</span>
+          {{/each}}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+{{> footer }}

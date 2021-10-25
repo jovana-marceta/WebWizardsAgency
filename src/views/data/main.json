@@ -1,0 +1,8 @@
+{
+  "example": "forExample",
+  "testArray": ["a", "b", "c"],
+  "testObj": {
+    "name": "One",
+    "age": 15
+  }
+}
