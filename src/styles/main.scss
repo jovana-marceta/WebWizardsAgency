@@ -1,15 +1,6 @@
+
+@import 'variables';
+
 @import 'bootstrap/scss/bootstrap';
 
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-@import 'abstracts/helpers';
-
-@import 'base/layout';
-@import 'base/normalize';
-@import 'base/fonts';
-@import 'base/typography';
-
-@import 'components/buttons';
-
-@import 'layout/header';
-@import 'layout/footer';
+@import 'app';

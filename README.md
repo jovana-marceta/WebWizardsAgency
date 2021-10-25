@@ -1,10 +1,4 @@
-## WebWizards Agency
-
-Fictional web development agency built by team of enthusiastic and passionate developers
-
-[Jovana Marceta](https://github.com/jovana-marceta)
-[Kevin Nemo](https://github.com/kevin-nemo74)
-[Aidas](https://github.com/elnino97)
+## Front-end Boilerplate
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 [![license](https://img.shields.io/github/license/maksabuzyarov/gulp-webpack-handlebars)](https://github.com/maksabuzyarov/gulp-webpack-handlebars/blob/master/LICENSE)
@@ -12,7 +6,7 @@ Fictional web development agency built by team of enthusiastic and passionate de
 
 **gulp-webpack-handlebars** is a flexible template for web development. It includes many tools for creating responsive, high-performance and lightweight pages.
 
-:rocket: Bootstrap + Gulp 4 + Webpack 4 + Handlebars + Babel + BrowserSync :fire:
+:rocket: Gulp 4 + Webpack 4 + Handlebars + Babel + BrowserSync :fire:
 
 
 
@@ -31,17 +25,23 @@ Fictional web development agency built by team of enthusiastic and passionate de
 
 ### Install
 
-1. Install **NodeJS** and **yarn**
+1. Install **NodeJS** and **npm**
 2. Clone this repository
-3. Run `yarn`
+3. Run `npm install`
 
+```bash
+git clone https://github.com/maksabuzyarov/gulp-webpack-handlebars.git
+cd gulp-webpack-handlebars
+npm install
+```
 
 ### Use tasks
 
 |                | Task Name                                    | Description                                               | Environment |
 | -------------- | :------------------------------------------- | :-------------------------------------------------------- | :---------- |
-| :construction: | `gulp`                     | Compile dev build, start the server and watch for changes | Development |
-| :factory:      |  `gulp build --production` | Compile production build                                  | Production  |
+| :construction: | `npm run dev` or `gulp`                     | Compile dev build, start the server and watch for changes | Development |
+| :factory:      | `npm run build` or `gulp build --production` | Compile production build                                  | Production  |
+
 
 
 ### How to use SVG sprite?
@@ -164,4 +164,3 @@ In this case, the image does not respond to color changes.
 ## Copyright and license
 
 Copyright 2019 Maksim Abuzyarov under the [MIT license](http://opensource.org/licenses/MIT).
-Updated 2021 by WebWizards Team :)

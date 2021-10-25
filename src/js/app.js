@@ -17,4 +17,3 @@ window.addEventListener('load', () => {
   window.site.initElements();
 });
 
-console.log("hello");
