@@ -1,4 +1,11 @@
-## Front-end Boilerplate
+## Web Wizards Agency
+
+Fictional web development agency WebWizards built by group of passionate developers.
+Developers:
+[Jovana Marceta](https://github.com/jovana-marceta)
+[Aidas](https://github.com/elnino97)
+[Kevin Nemo](https://github.com/kevin-nemo74)
+[Deepak Gdi](https://github.com/deepakgudi-pixel)
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 [![license](https://img.shields.io/github/license/maksabuzyarov/gulp-webpack-handlebars)](https://github.com/maksabuzyarov/gulp-webpack-handlebars/blob/master/LICENSE)
@@ -27,20 +34,15 @@
 
 1. Install **NodeJS** and **npm**
 2. Clone this repository
-3. Run `npm install`
+3. Run `yarn install`
 
-```bash
-git clone https://github.com/maksabuzyarov/gulp-webpack-handlebars.git
-cd gulp-webpack-handlebars
-npm install
-```
 
 ### Use tasks
 
 |                | Task Name                                    | Description                                               | Environment |
 | -------------- | :------------------------------------------- | :-------------------------------------------------------- | :---------- |
-| :construction: | `npm run dev` or `gulp`                     | Compile dev build, start the server and watch for changes | Development |
-| :factory:      | `npm run build` or `gulp build --production` | Compile production build                                  | Production  |
+| :construction: |  `gulp`                     | Compile dev build, start the server and watch for changes | Development |
+| :factory:      |  `gulp build --production` | Compile production build                                  | Production  |
 
 
 
