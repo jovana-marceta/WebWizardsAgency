@@ -4,7 +4,7 @@ Fictional web development agency WebWizards built by group of passionate develop
 
 ## Contributors ✨
 
-Thanks goes to these passionate developers:
+Thanks goes to these people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
