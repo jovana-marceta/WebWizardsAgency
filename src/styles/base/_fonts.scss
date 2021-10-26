@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Regular.woff2') format('woff2'),
+		url('../fonts/Lato/Lato-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Bold.woff2') format('woff2'),
+		url('../fonts/Lato/Lato-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Black.woff2') format('woff2'),
+		url('../fonts/Lato/Lato-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+.lato-16-normal {
+	font-family: "Lato";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	// its important to line height always be in % because of responsivness
+	line-height: 157%;
+}
+
+.lato-50-bold {
+	font-family: "Lato";
+	font-size: 50px;
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+h1 {
+	@extend .lato-50-bold;
+	color: $white;
+}
