@@ -44,7 +44,7 @@ Thanks goes to these people:
 
 ### Install
 
-1. Install **NodeJS** and **npm**
+1. Install **NodeJS** and **yarn**
 2. Clone this repository
 3. Run `yarn install`
 
