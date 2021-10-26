@@ -1,11 +1,23 @@
-## Web Wizards Agency
+# Web Wizards Agency
 
 Fictional web development agency WebWizards built by group of passionate developers.
-Developers:
-[Jovana Marceta](https://github.com/jovana-marceta)
-[Aidas](https://github.com/elnino97)
-[Kevin Nemo](https://github.com/kevin-nemo74)
-[Deepak Gdi](https://github.com/deepakgudi-pixel)
+
+## Contributors ✨
+
+Thanks goes to these passionate developers:
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/jovana-marceta"><img src="https://avatars.githubusercontent.com/u/69209749?v=4" width="100px;" alt=""/><br /><sub><b>Jovana Marčeta</b></sub></a><br /><a href="https://www.linkedin.com/in/jovanamarceta/" title="Linkedin">💬</a> <a href="https://jovana-marceta.github.io/app/index.html" title="Portfolio">🌏</a></td>
+    <td align="center"><a href="https://github.com/elnino97"><img src="https://avatars.githubusercontent.com/u/9388169?v=4" width="100px;" alt=""/><br /><sub><b>Aidas Kairys</b></sub></a><br /><a href="https://www.linkedin.com/in/aidas-kairys-086689162/" title="Linkedin">💬</a> <a href="#" title="Portfolio">🌏</a></td>
+    <td align="center"><a href="https://github.com/kevin-nemo74"><img src="https://avatars.githubusercontent.com/u/88586651?v=4" width="100px;" alt=""/><br /><sub><b>Guenez Muhamed</b></sub></a><br /><a href="https://www.linkedin.com/in/aidas-kairys-086689162/" title="Linkedin">💬</a> <a href="#" title="Portfolio">🌏</a></td>
+    <td align="center"><a href="https://github.com/deepakgudi-pixel"><img src="https://avatars.githubusercontent.com/u/75731075?v=4" width="100px;" alt=""/><br /><sub><b>Deepak Gudi</b></sub></a><br /><a href="https://www.linkedin.com/in/aidas-kairys-086689162/" title="Linkedin">💬</a> <a href="https://deepakgudi.vercel.app/" title="Portfolio">🌏</a></td>
+    
+  </tr>
+</table>
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 [![license](https://img.shields.io/github/license/maksabuzyarov/gulp-webpack-handlebars)](https://github.com/maksabuzyarov/gulp-webpack-handlebars/blob/master/LICENSE)
