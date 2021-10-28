@@ -1,0 +1,17 @@
+.team {
+  padding: 178px;
+  background-color: $light-grey;
+  width: 100%;
+  height: 1104px;
+  .team__h1 {
+    margin-bottom: 20px;
+    color: $black;
+    @extend .roboto-36-900;
+    text-align: center;
+  }
+  .team__h2 {
+    color: $black;
+    @extend .roboto-30-300;
+    text-align: center;
+  }
+}

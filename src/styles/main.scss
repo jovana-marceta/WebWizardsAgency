@@ -1,12 +1,12 @@
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
-@import 'abstracts/helpers';
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/helpers";
 
-@import 'base/layout';
-@import 'base/normalize';
-@import 'base/fonts';
+@import "base/layout";
+@import "base/normalize";
+@import "base/fonts";
 
-@import 'components/buttons';
+@import "components/buttons";
 
 @import 'layout/header';
 @import 'layout/footer';
