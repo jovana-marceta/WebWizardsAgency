@@ -35,6 +35,15 @@
 }
 
 @font-face {
+  font-family: "Roboto-bold";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Roboto-regular";
   src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
     url("../fonts/Roboto/Roboto-Regular.woff") format("woff");
@@ -52,12 +61,28 @@
   font-display: swap;
 }
 
+.roboto-18-300 {
+  font-family: "Roboto-Light";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-size: 18px;
+}
+
 .roboto-30-300 {
   font-family: "Roboto-Light";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
   font-size: 30px;
+}
+
+.roboto-24-700 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  font-size: 24px;
 }
 
 .roboto-36-900 {
