@@ -1,8 +1,6 @@
 .team {
   padding: 178px;
   background-color: $light-grey;
-  width: 100%;
-  height: 1104px;
   .team__h1 {
     margin-bottom: 20px;
     color: $black;
@@ -13,5 +11,37 @@
     color: $black;
     @extend .roboto-30-300;
     text-align: center;
+  }
+  .team__wrapper {
+    margin-top: 156px;
+    width: 1101px;
+    height: 342px;
+    display: flex;
+
+    .team__card {
+      margin-right: 40px;
+      width: 230px;
+
+      .team__picture {
+        width: 230px;
+        height: 230px;
+      }
+
+      .team__name {
+        line-height: 170%;
+        text-align: center;
+        @extend .roboto-24-700;
+      }
+
+      .team__description {
+        text-align: center;
+        @extend .roboto-18-300;
+      }
+
+      .team__links {
+        width: 86px;
+        margin: 10px auto 0;
+      }
+    }
   }
 }
